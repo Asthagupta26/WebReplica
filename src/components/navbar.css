@@ -1,0 +1,97 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  height: 64px;
+  gap: 8px;
+  background-color: white;
+
+}
+
+.logo img {
+  width: 152px;
+  height: 24px;
+  top: 20px;
+  left: 120px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.nav-item {
+  margin-right: 20px;
+  color: #161616;
+}
+
+.wishlist-button1 button {
+  background-color: #161616;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.free-tag {
+  margin-right: 10px;
+  width: 45px;
+  height: 24px;
+}
+
+.free-button button {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 400;
+  size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.free-tag button {
+  width: 45px;
+  height: 24px;
+  border-radius: 4px;
+  padding: 2px, 8px, 4px, 8px;
+  gap: 8px;
+  color: #F18D13;
+}
+
+.container-fluid {
+  margin: 10px;
+}
+
+.container1 {
+  margin: 0rem 7.5rem;
+}
+
+.header {
+  height: 64px;
+  padding-top: 15px;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+@media screen and (max-width:700px) {
+  .web-nav {
+    display: none !important;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .container1 {
+    margin: 1rem 2rem;
+  }
+
+  .header {
+    height: 50px;
+  }
+}

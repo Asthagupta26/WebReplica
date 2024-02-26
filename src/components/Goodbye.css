@@ -1,0 +1,157 @@
+.container-fluid {
+    padding: 0rem !important;
+    margin: 0rem !important;
+}
+
+.container {
+    padding: 7rem 0rem;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 690px;
+}
+
+.heading {
+    font-family: Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #161616;
+}
+
+.line {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #6f6f6f;
+}
+
+.input-container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.input {
+    border-radius: 6px;
+    border: 1px solid #c6c6c6;
+    width: 411px;
+    padding: 12px;
+}
+
+.input::placeholder {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.wishlist-button {
+    background-color: #161616;
+    color: #fff;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.mobile-byee {
+    display: none;
+}
+
+.web-byee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:700px) {
+
+    .web-byee {
+        display: none;
+    }
+
+    .mobile-byee {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .byee {
+        width: 72px;
+        height: 68px;
+    }
+
+    .container {
+        padding: 3rem 1rem;
+    }
+
+    .content1 {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .heading {
+        font-family: Helvetica;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: -0.02em;
+        text-align: center;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .solo {
+        width: -webkit-fill-available;
+    }
+
+    .wishlist-button {
+        text-align: center;
+    }
+}
+
+@keyframes moveLeftRight {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 10px;
+    }
+}
+
+.byee {
+    position: relative;
+    left: 0;
+    animation: moveLeftRight 2s linear infinite alternate;
+}

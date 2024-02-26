@@ -1,0 +1,276 @@
+.container-fluid {
+    padding: 0rem !important;
+    margin: 0rem !important;
+}
+
+.container {
+    padding: 5rem 0rem;
+}
+
+.main-bg {
+    background: #FFF1F1;
+    border-radius: 24px;
+    padding: 4rem;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 690px;
+    margin-bottom: 40px;
+}
+
+.small-heading {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #6F6F6F;
+    text-transform: uppercase;
+}
+
+.heading1 {
+    font-family: Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #161616;
+}
+
+.top-line {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #525252;
+}
+
+.lib-btn {
+    margin-top: 10px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #c6c6c6;
+    border-radius: 24px;
+    padding: 10px 16px;
+    background: white;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-1 {
+    width: 384px;
+    height: fit-content;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card-bottom {
+    border-radius: 0px 0px 16px 16px;
+    background: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-small {
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #525252;
+    text-transform: uppercase;
+}
+
+.card-heading {
+    font-family: Helvetica;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+}
+
+.card-line {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #525252;
+}
+
+.card-nav {
+    margin-top: 12px;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+}
+
+.down-section {
+    margin: 5rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.down-head {
+    font-family: Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #161616;
+}
+
+.down-card {
+    border: 1px solid #D0E2FF;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 214px;
+    height: 194px;
+}
+
+.d-flex-s {
+    gap: 16px;
+}
+
+.down-card-head {
+    font-family: Helvetica;
+    font-size: 64px;
+    font-weight: 200;
+    line-height: 64px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #696969;
+}
+
+.down-card-line {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #6f6f6f;
+}
+
+@media screen and (max-width:700px) {
+    .mar {
+        padding: 0rem !important;
+    }
+
+    .main-bg {
+        border-radius: 0px;
+        padding: 3rem 1rem;
+    }
+
+    .top {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .small-heading {
+        font-family: Helvetica;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+
+    .heading1 {
+        font-family: Helvetica;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
+
+    .top-line {
+        font-family: Helvetica;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: -0.01em;
+        text-align: left;
+    }
+
+    .lib-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card-1 {
+        width: 100%;
+    }
+
+    .down-section {
+        margin: 2rem 1rem;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .down-head {
+        font-family: Helvetica;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
+
+    .down-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .down-card {
+        width: 100%;
+        
+    }
+}

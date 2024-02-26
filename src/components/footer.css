@@ -1,0 +1,140 @@
+.container-fluid {
+    padding: 0rem !important;
+    margin: 0rem !important;
+}
+
+.container {
+    padding: 5rem 0rem;
+}
+
+.some {
+    background: black;
+}
+
+.footer-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.footer-layout-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-layout-top-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-layout-top-left-line {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #a8a8a8;
+}
+
+.footer-layout-top-left-img1 {
+    width: 202px;
+    height: 32px;
+}
+
+.footer-layout-top-left-img2 {
+    width: 172px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.footer-layout-top-right {
+    width: 588px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.points {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-layout-top-right-heading {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6f6f6f;
+}
+
+.footer-layout-top-right-value {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #e0e0e0;
+}
+
+.copyright {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6f6f6f;
+}
+
+.hori-line {
+    width: 100%;
+    border: 1px solid #393939;
+}
+
+.footer-mobile {
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+    .footer-mobile {
+        display: block;
+    }
+
+    .footer-web {
+        display: none;
+    }
+
+    .footer-layout {
+        gap: 40px;
+    }
+
+    .footer-layout-top {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-layout-top-right {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 56px;
+        justify-content: unset;
+    }
+
+    .fot-down {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}

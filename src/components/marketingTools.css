@@ -1,0 +1,183 @@
+.container-fluid {
+    padding: 0rem !important;
+    margin: 0rem !important;
+}
+
+.box {
+    display: flex;
+    gap: 40px;
+    background: #DEFBE6;
+    border-radius: 24px;
+    padding: 4rem 4rem 0rem 4rem;
+    margin: 0rem 7.5rem;
+    height: 740px;
+}
+
+.left {
+    padding-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 384px;
+}
+
+.small-head {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #6f6f6f;
+    text-transform: uppercase;
+}
+
+.heading {
+    font-family: Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #161616;
+}
+
+.line1 {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #525252;
+}
+
+.wait-btn {
+    width: max-content;
+    height: 48px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 6px;
+    color: #ffff;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: black;
+    margin-top: 12px;
+}
+
+.rocket {
+    margin-left: 8px;
+    position: relative;
+    top: 0;
+    animation: moveUpDown 2s linear infinite alternate;
+}
+
+.cards1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.card-12 {
+    width: 690px;
+    height: 320px;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.card-heading {
+    font-family: Helvetica;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+}
+
+.card-line {
+    width: 258px;
+    margin-top: 8px;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #525252;
+}
+
+.card-blue {
+    background: #A6C8FF;
+}
+
+.card-yellow {
+    background: #FEC57B;
+}
+
+@media screen and (max-width:700px) {
+    .box {
+        margin: 0rem;
+        border-radius: 0rem;
+        padding: 3rem 1rem 2rem 1rem;
+        flex-direction: column;
+        height: 1004px;
+    }
+
+    .left {
+        padding-bottom: 0rem;
+        width: 100%;
+    }
+
+    .small-head {
+        font-family: Helvetica;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+
+    .heading {
+        font-family: Helvetica;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
+
+    .line1 {
+        font-family: Helvetica;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: -0.01em;
+        text-align: left;
+    }
+
+    .card-12 {
+        width: 100%;
+        height: 320px;
+        padding: 24px;
+        border-radius: 16px;
+    }
+}
+
+@keyframes moveUpDown {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 10px;
+    }
+}

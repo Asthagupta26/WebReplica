@@ -1,0 +1,300 @@
+.container-fluid {
+    padding: 0rem !important;
+    margin: 0rem !important;
+}
+
+.container2 {
+    margin: 3rem 7.5rem;
+}
+
+.layout {
+    margin-top: 75px;
+}
+
+.signup-box {
+    width: max-content;
+    align-items: center;
+    border: 1px solid #D0E2FF;
+    border-radius: 40px;
+    display: flex;
+    gap: 8px;
+    padding: 6px 12px 6px 12px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background: red;
+    border-radius: 40px;
+    animation: pulse 3s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);
+    }
+
+    50% {
+        box-shadow: 0 0 8px 8px rgba(255, 0, 0, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);
+    }
+}
+
+.sigup-box-text1 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262626;
+}
+
+.signup-box-text2 {
+    color: #4589FF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main-heading {
+    margin: 20px 0px;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.blue {
+    color: #4589FF;
+}
+
+.black {
+    color: #262626;
+}
+
+.content {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    width: 996px;
+    margin-bottom: 25px;
+
+}
+
+.input-container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.input {
+    border-radius: 6px;
+    border: 1px solid #c6c6c6;
+    width: 411px;
+    padding: 12px;
+}
+
+.input::placeholder {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.wishlist-button {
+    background-color: #161616;
+    color: #fff;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.wishlist-button:hover {
+    background-color: #525252;
+}
+
+.ai-line {
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 15px;
+    color: #a8a8a8;
+    width: 409px;
+}
+
+.yellow {
+    color: #F18D13;
+    font-weight: 700;
+}
+
+.green {
+    color: #24A148;
+    font-weight: 700;
+}
+
+.main-img {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+marquee {
+    height: 88px;
+    margin-top: 10px;
+}
+
+.color-bg-box {
+    display: none;
+}
+
+.hover-img {
+    display: none;
+}
+
+.hoverable:hover {
+
+    .hover-img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .main-img {
+        display: none;
+    }
+}
+
+.color-bg {
+    background-image: url(../../public/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
+
+.color-text {
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 486px;
+}
+
+.color-btns {
+    display: flex;
+    gap: 10px;
+}
+
+.color-img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.cursor {
+    position: absolute;
+    margin-top: 350px;
+    top: auto;
+    left: 29%;
+    animation: moveUpDown 2s linear infinite alternate;
+}
+
+@keyframes moveUpDown {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 10px;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    .cursor {
+        display: none;
+    }
+
+    marquee {
+        height: 50px;
+    }
+
+    .container2 {
+        margin: 2rem 2rem;
+    }
+
+    .layout {
+        margin-top: 0px;
+    }
+
+    .signup-box {
+        padding: 6px 10px;
+    }
+
+    .sigup-box-text1 {
+        font-family: Helvetica;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .signup-box-text2 {
+        font-family: Helvetica;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .main-heading {
+        font-family: Helvetica;
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: -1.5px;
+        text-align: left;
+        margin: 0px;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .input-container {
+        flex-direction: column;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .wishlist-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ai-line {
+        width: 100%;
+    }
+
+    .main-img {
+        margin-top: 0px;
+    }
+}
